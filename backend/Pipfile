@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+slackclient = "*"
+django-dotenv = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+pillow = "*"
+django-storages = "*"
+boto3 = "*"
+firebase-admin = "*"
+pandas = "*"
+drf-yasg = "*"
+requests = "*"
+stripe = "*"
+
+[dev-packages]
+pytest = "*"
+faker = "*"
+
+[requires]
+python_version = "3.10"

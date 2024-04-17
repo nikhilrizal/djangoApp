@@ -1,0 +1,10 @@
+db.sqlite3
+__pycache__
+src/db.sqlite3
+staticfiles/
+src/logs
+media
+indexes
+.pytest_cache
+./data
+.env
