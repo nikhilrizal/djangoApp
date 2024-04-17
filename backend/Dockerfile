@@ -19,9 +19,4 @@ RUN chmod u+x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
 
-# mount --bind /home/nik/Downloads/backendt /app
-# /home/nik/Downloads/backend 7dfb537b20ca
 
-
-
-# docker run -v ./:/app -p 80:80 7dfb537b20ca -e SECRET_KEY=7d925a43732b1e516370a8581446ed86f46b17453c64ba33151b0c57138f49c1
